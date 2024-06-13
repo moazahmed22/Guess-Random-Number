@@ -5,7 +5,13 @@ body {
     background-color: hsl(0, 0%, 13%);
     color: hsl(0, 0%, 100%);
 }
-
+/*audio button*/
+#audio{
+    font-size: 2em;
+    background-color: hsl(0, 0%, 13%);
+    border: none;
+}
+/*main container*/
 #container{
     display: flex;
     flex-direction: column;
@@ -14,7 +20,7 @@ body {
     text-align: center;
     font-size: 1.5em;
 }
-
+/*input field*/
 #myInput{
     font-size: 1.5em;
     font-weight: bold;
@@ -26,13 +32,14 @@ body {
     box-shadow: 1px 1px gray;
     margin-bottom: 25px;
 }
-
+/*both the timer and the result field*/
 #timer, #attempts{
     font-size: 1.5em;
     font-weight: bold;
     height: 78px;
     margin: 15px 0px 0px;
 }
+/*buttons*/
 #functions{
     width: 85.5%;
     text-align: right;
