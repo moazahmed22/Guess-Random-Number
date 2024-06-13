@@ -1,0 +1,64 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: hsl(0, 0%, 13%);
+    color: hsl(0, 0%, 100%);
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 9.5% auto;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#myInput{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 1px 1px gray;
+    margin-bottom: 25px;
+}
+
+#timer, #attempts{
+    font-size: 1.5em;
+    font-weight: bold;
+    height: 78px;
+    margin: 15px 0px 0px;
+}
+#functions{
+    width: 85.5%;
+    text-align: right;
+}
+#functions button{
+    padding: 10px 10px;
+    font-weight: bolder;
+    font-size: 0.75em;
+    background-color: hsl(0, 0%, 13%);
+    color: hsl(0, 0%, 100%);
+    width: 125px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#apply{
+    margin-right: 10px;
+    border:5px solid hsl(345, 93%, 59%);
+}
+#newGame{
+    border:5px solid hsl(226, 93%, 59%);
+}
+#apply:hover{
+    background-color: hsl(345, 93%, 59%);
+    color: black;
+}
+#newGame:hover{
+    background-color: hsl(226, 93%, 59%);
+    color: black;
+}

@@ -8,12 +8,16 @@
 </head>
 <body>
     <div id="container">
-        <h1>Random number game</h1>
+        <h1 id="myTitle">Random Number Game</h1>
         <pre id="timer"></pre>
         <h2>Guess the random number between 1:100</h2>
         <input type="number" name="" id="myInput">
-        <button>New Game</button>
-        <button onclick="submit()">Apply</button>
+        <div id="functions">
+            <button onclick="submit()" id="apply">Apply</button>
+            <button onclick="newGame()" id="newGame">New Game</button>
+        </div>
+        <p id="attempts"></p>
+
     </div>
     <script src="index.html"></script>
 </body>
